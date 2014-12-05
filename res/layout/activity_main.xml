@@ -10,7 +10,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="000000" />
+        android:text="000000"
+        android:textColor="#c5c4c4"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtCounter_decimal"
@@ -19,7 +22,10 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/txtCounter_digit"
-        android:text="." />
+        android:text="."
+        android:textColor="#c5c4c4"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtCounter"
@@ -29,7 +35,10 @@
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/txtCounter_digit"
         android:paddingLeft="5dp"
-        android:text="00" />
+        android:text="00"
+        android:textColor="#c5c4c4"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnStart"
